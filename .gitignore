@@ -3,4 +3,5 @@ obj/
 bin/
 packages/
 debug/
-*.dll,*.pdb,*.suo,*.git,*.vsp,*.user,*.log,*.cache
+*.dll,*.pdb,*.suo,*.git,*.vsp,*.user,*.log
+*.cache
