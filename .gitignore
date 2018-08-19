@@ -1,6 +1,6 @@
-
 .vs/
 obj/
 bin/
 packages/
-*.dll,*.pdb,*.suo,*.git,*.vsp,*.user,*.log
+debug/
+*.dll,*.pdb,*.suo,*.git,*.vsp,*.user,*.log,*.cache
