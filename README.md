@@ -41,7 +41,7 @@ FeatureUsageLess.Submit("带用户&自定义数据&标签", user, data, tagName)
 FeatureUsageLess.Submit("带用户&自定义数据&标签", user, datas, tagName);
 ```
 #### 2.2 失效链接日志使用示例
-```` C#
+``` C#
 string tagName = "失效链接标签";//自定义标签
 var data = new ExcDataParam() { Name = "请求参数", Data = new { Id = 001, Name = "张三" } };//自定义单个model
 var user = new ExcUserParam() { Id = "No0001", Name = "李廷礼", Email = "litingxian@live.cn", Description = "菁鲤汇高级开发工程师" };//用户信息
