@@ -177,3 +177,19 @@ catch (Exception ex)
     ex.Submit(user, datas, tagName);//带用户&自定义数据&标签
 }
 ```
+#### 2.5. ASP.NET Core 里面的全局异常处理 
+GlobalExceptionFilter：该类则是本人在**Stack.Exceptionless项目当中扩展出来的全局异常过滤器**，它所属的命名空间为：**Stack.Exceptionless.Filters**，我么如果要使用它，除了需要配置appsettings.json文件以外，我们还需要在Startup的ConfigureServices里面加入一段配置，具体配置按照下面的代码配置即可：  
+``` C#
+/// <summary>
+/// 
+/// </summary>
+/// <param name="services"></param>
+public void ConfigureServices(IServiceCollection services)
+{
+     services.AddMvc(options =>
+     {
+          //添加全局异常捕获
+          options.Filters.Add<GlobalExceptionFilter>();
+     });
+}
+```
