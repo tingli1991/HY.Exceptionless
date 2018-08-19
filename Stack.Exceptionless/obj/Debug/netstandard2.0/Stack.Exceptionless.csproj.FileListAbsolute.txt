@@ -1,0 +1,9 @@
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\bin\Debug\netstandard2.0\Stack.Exceptionless.deps.json
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\bin\Debug\netstandard2.0\Stack.Exceptionless.dll
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\obj\Debug\netstandard2.0\Stack.Exceptionless.csproj.CoreCompileInputs.cache
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\obj\Debug\netstandard2.0\Stack.Exceptionless.AssemblyInfoInputs.cache
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\obj\Debug\netstandard2.0\Stack.Exceptionless.AssemblyInfo.cs
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\bin\Debug\netstandard2.0\Stack.Exceptionless.pdb
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\obj\Debug\netstandard2.0\Stack.Exceptionless.dll
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\obj\Debug\netstandard2.0\Stack.Exceptionless.pdb
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless\obj\Debug\netstandard2.0\Stack.Exceptionless.csprojAssemblyReference.cache

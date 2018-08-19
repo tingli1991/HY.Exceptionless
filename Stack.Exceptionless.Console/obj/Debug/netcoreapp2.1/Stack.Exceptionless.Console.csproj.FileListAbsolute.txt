@@ -1,0 +1,15 @@
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.Console.csprojAssemblyReference.cache
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.Console.csproj.CoreCompileInputs.cache
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.Console.AssemblyInfoInputs.cache
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.Console.AssemblyInfo.cs
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.deps.json
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.runtimeconfig.json
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.runtimeconfig.dev.json
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.dll
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.pdb
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.dll
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.ConsoleTest.pdb
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.dll
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\bin\Debug\netcoreapp2.1\Stack.Exceptionless.pdb
+E:\Platform\Stack.Exceptionless\Stack.Exceptionless.Console\obj\Debug\netcoreapp2.1\Stack.Exceptionless.Console.csproj.CopyComplete
