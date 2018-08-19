@@ -101,6 +101,7 @@ namespace Stack.Exceptionless.ConsoleTest
                 }
             };
 
+            //日志等级：跟踪信息
             LogMessagesLess.Trace("不带参数");
             LogMessagesLess.Trace("带标签", tagName);
             LogMessagesLess.Trace("带用户&标签", user, tagName);
@@ -109,6 +110,7 @@ namespace Stack.Exceptionless.ConsoleTest
             LogMessagesLess.Trace("带用户&自定义数据&标签", user, data, tagName);
             LogMessagesLess.Trace("带用户&自定义数据&标签", user, datas, tagName);
 
+            //日志等级：调试信息
             LogMessagesLess.Debug("不带参数");
             LogMessagesLess.Debug("带标签", tagName);
             LogMessagesLess.Debug("带用户&标签", user, tagName);
@@ -117,6 +119,7 @@ namespace Stack.Exceptionless.ConsoleTest
             LogMessagesLess.Debug("带用户&自定义数据&标签", user, data, tagName);
             LogMessagesLess.Debug("带用户&自定义数据&标签", user, datas, tagName);
 
+            //日志等级：普通信息
             LogMessagesLess.Info("不带参数");
             LogMessagesLess.Info("带标签", tagName);
             LogMessagesLess.Info("带用户&标签", user, tagName);
@@ -125,6 +128,7 @@ namespace Stack.Exceptionless.ConsoleTest
             LogMessagesLess.Info("带用户&自定义数据&标签", user, data, tagName);
             LogMessagesLess.Info("带用户&自定义数据&标签", user, datas, tagName);
 
+            //日志等级：警告
             LogMessagesLess.Warn("不带参数");
             LogMessagesLess.Warn("带标签", tagName);
             LogMessagesLess.Warn("带用户&标签", user, tagName);
@@ -133,6 +137,7 @@ namespace Stack.Exceptionless.ConsoleTest
             LogMessagesLess.Warn("带用户&自定义数据&标签", user, data, tagName);
             LogMessagesLess.Warn("带用户&自定义数据&标签", user, datas, tagName);
 
+            //日志等级：致命的
             LogMessagesLess.Fatal("不带参数");
             LogMessagesLess.Fatal("带标签", tagName);
             LogMessagesLess.Fatal("带用户&标签", user, tagName);
@@ -141,6 +146,7 @@ namespace Stack.Exceptionless.ConsoleTest
             LogMessagesLess.Fatal("带用户&自定义数据&标签", user, data, tagName);
             LogMessagesLess.Fatal("带用户&自定义数据&标签", user, datas, tagName);
 
+            //日志等级：异常
             LogMessagesLess.Error("不带参数");
             LogMessagesLess.Error("带标签", tagName);
             LogMessagesLess.Error("带用户&标签", user, tagName);
@@ -185,6 +191,7 @@ namespace Stack.Exceptionless.ConsoleTest
             }
             catch (Exception ex)
             {
+                //注意：同一个异常ExceptionsLess只会提交一次，這就说明第二次提交则会无效
                 //ex.Submit();//不带任何参数
                 //ex.Submit(tagName);//带标签
                 //ex.Submit(user, tagName);//带用户&标签
