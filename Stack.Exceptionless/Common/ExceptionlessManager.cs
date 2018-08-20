@@ -13,11 +13,6 @@ namespace Stack.Exceptionless.Common
     public class ExceptionlessManager
     {
         /// <summary>
-        /// 配置信息
-        /// </summary>
-        protected internal static AppSettings Settings = new AppSettings();
-
-        /// <summary>
         /// 提交事件,提供给外部订阅使用
         /// </summary>
         public static event EventHandler<EventSubmittingEventArgs> SubmittingEvent;
@@ -32,8 +27,8 @@ namespace Stack.Exceptionless.Common
         /// </summary>
         static ExceptionlessManager()
         {
-            ExceptionlessClient.Default.Configuration.ApiKey = Settings["Exceptionless:ApiKey"];
-            ExceptionlessClient.Default.Configuration.ServerUrl = Settings["Exceptionless:ServerUrl"];
+            ExceptionlessClient.Default.Configuration.ApiKey = ConfigManager.GetValue<string>("Exceptionless:ApiKey");
+            ExceptionlessClient.Default.Configuration.ServerUrl = ConfigManager.GetValue<string>("Exceptionless:ServerUrl");
             ExceptionlessClient.Default.SubmittingEvent += Default_SubmittingEvent; ;
         }
 

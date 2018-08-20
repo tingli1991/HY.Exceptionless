@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Protocols;
+using Stack.Exceptionless.Config;
 
 namespace Stack.Exceptionless.WebAPI.Controllers
 {
@@ -15,7 +17,8 @@ namespace Stack.Exceptionless.WebAPI.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return "";
+            var serverUrl = ConfigManager.GetValue<string>("Exceptionless:ServerUrl");
+            return serverUrl;
         }
 
         /// <summary>

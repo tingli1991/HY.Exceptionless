@@ -1,7 +1,9 @@
-﻿using Stack.Exceptionless.Extensions;
+﻿using Stack.Exceptionless.Config;
+using Stack.Exceptionless.Extensions;
 using Stack.Exceptionless.Param;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Stack.Exceptionless.ConsoleTest
 {
@@ -16,6 +18,14 @@ namespace Stack.Exceptionless.ConsoleTest
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            //测试配置文件的热更新，结果是现目前再控制台还有些问题，webapi正常
+            //var serverUrl = ConfigManager.GetValue<string>("Exceptionless:ServerUrl");
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    Console.WriteLine($"服务器地址：{serverUrl}");
+            //    Thread.Sleep(5000);
+            //}
+
             MessageTest();//消息日志测试
             BrokenLinksTest();//失效链接日志测试
             FeatureUsageTest();//特性使用日志测试

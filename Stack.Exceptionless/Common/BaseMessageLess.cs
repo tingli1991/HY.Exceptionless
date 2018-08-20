@@ -3,7 +3,6 @@ using Exceptionless.Logging;
 using Stack.Exceptionless.Param;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace Stack.Exceptionless.Common
 {
