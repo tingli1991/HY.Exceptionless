@@ -10,7 +10,7 @@
   }
 ````
 **ServerUrl：** 表示Exceptionless的api地址  
-**ApiKey：** 是在Exceptionless后台项目管理里面生成的项目唯一标识（关于apiKey的生成這里不过多描述）
+**ApiKey：** 是在Exceptionless后台项目管理里面生成的项目唯一标识（关于apiKey的生成這里不过多描述）  
 **注意：** appsettings.json 如果没有请记得在项目的更目录自行添加，并且要记得右键属性将其设置为始终复制（或者如果较新则复制）哦  
 
 ## 2. 使用示例  
